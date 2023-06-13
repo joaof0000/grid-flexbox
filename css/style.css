@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Helvetica;
+  background-color: rgb(40, 90, 90);
+  height: 100vh;
+  
+}
+
+main {
+  height: 200px;
+  width: 450px;
+  background-color: white;
+  display: flex;
+}
+
+#left-column {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+
+}
+h2 {
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+  color:rgb(138, 138, 138);
+}
+#five-min-free {
+  margin-top: 7px;
+  margin-bottom: 0px;
+  font-size: small;
+  font-weight: bold;
+}
+#bio {
+  font-size: small;
+  border-left: 3px solid  rgb(116, 186, 130);
+  margin-top: 7px;
+  margin-bottom: 3px;
+  padding-left: 8px;
+  color:rgb(180, 180, 180);
+}
+
+p {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-size: small;
+}
+
+#right-column {
+  background-color: rgb(243, 243, 243);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: left;
+  padding: 25px;
+  margin: 0;
+  width: 350px;
+}
+
+#online {
+  text-align: left;
+  font-size: 12px;
+  padding: 8px;
+  width: 100%;
+  color:lightgrey;
+}
+
+#lctr {
+  display: flex;
+  justify-content: center;
+}
+
+#profile-pic {
+  margin-bottom: 20px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 5px solid;
+  border-color: rgb(130, 204, 143);
+}
+
+
+
+
+
+
+#contact-section {
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+  width: 100%;
+}
+
+#call-button {
+  background-color: rgb(130, 204, 143);
+  grid-column: 1 / 2;
+  height: 42px;
+}
+#text-button {
+  background-color: rgb(116, 186, 130);
+  grid-column: 2 / 3;
+  height: 42px;
+}
+
+#rating {
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 30px; 
+  width: 40%;
+}
+
+
